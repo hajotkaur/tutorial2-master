@@ -1,5 +1,13 @@
 @charset "utf-8";
 
+@font-face{
+
+   font-family: Quicksand;
+   src:url('Quicksand-Regular.woff') format ('woff'),
+       url('Quicksand-Regular.ttf') format('truetype');
+
+}
+
 /*
    New Perspectives on HTML5 and CSS3, 7th Edition
    Tutorial 2
@@ -23,6 +31,7 @@ html{
 body{
    color: rgb(91, 91, 91);
    background-color: ivory;
+   font-family:Verdana, Geneva, sans-serif;
 }
 
 
@@ -30,12 +39,12 @@ body{
 
 /* Heading Styles */
 
-article#about_us h1 {
+article#about_tss h1 {
    color: white;
    background-color: rgb(222, 128, 60);
 }
 
-article#about_us h2 {
+article#about_tss h2 {
    color: white;
    background-color: rgb(235, 177, 131);
 }
